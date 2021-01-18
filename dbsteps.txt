@@ -70,6 +70,12 @@ data2={
   #   "upcoming_shows_count": 3,
   # }
 
+https://media.istockphoto.com/photos/party-people-enjoy-concert-at-festival-summer-music-festival-picture-id1204162313?b=1&k=6&m=1204162313&s=170667a&w=0&h=ACuFl90f_HRAh7hWblIQSzXZUM3E751f2f54eeOyrpI='
+https://cdn.pixabay.com/photo/2015/07/30/17/24/audience-868074__340.jpg
+https://cdn.pixabay.com/photo/2015/07/30/17/24/audience-868074_960_720.jpg
+https://media.istockphoto.com/photos/caucasian-musician-playing-drumms-during-online-concert-or-soundcheck-picture-id1219172994?b=1&k=6&m=1219172994&s=170667a&w=0&h=NCi1VmNkdZobTet3eS1ENm3hQp3AdWotStwI-KGr7x8=
+
+
 insert into public."Artist"(id,name,genres,city,state,phone,seeking_venue,
 image_link) values (
     7,'The Wild Sax Band','{"Jazz", "Classical"}','San Fransisco','CA','432-325-5432',False,
@@ -91,6 +97,8 @@ insert into public."Artist"(id,name,genres,city,state,phone,facebook_link,seekin
     'https://images.unsplash.com/photo-1495223153807-b916f75de8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'
 );
 
+insert into public."Show"(id,artist_id,venue_id,start_time) values (1,2,3,'2021-01-07 12:58:08');
+insert into public."Show"(id,artist_id,venue_id,start_time) values (2,3,1,'2021-01-12 12:58:08');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%VENUE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 //VENUE// id=form.state,
